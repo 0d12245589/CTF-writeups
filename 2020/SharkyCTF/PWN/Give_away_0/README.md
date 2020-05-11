@@ -22,7 +22,7 @@ First we mark the binary executable so we can run it:
 
 when we try running the binary it accepts some input and then it exits
 
-![screenshot1](images/screenshot1.png)
+![screenshot1](https://github.com/0d12245589/CTF-writeups/raw/master/2020/SharkyCTF/PWN/Give_away_0/images/screenshot1.png)
 
 so we disassemble the binary with `objdump -d 0_give_away`:
 
@@ -70,9 +70,9 @@ we see that the main is calling the vuln function which reads 0x32 bytes using f
 so we can overwrite the return address with offset '0x20+0x8=0x28=40'
 and we overwrite it with the address of win function 'win_func' which obviously pops a shell
 
-I like to use pwntools template to automate the process: [solve.py](solve.py)
+I like to use pwntools template to automate the process: [solve.py](https://github.com/0d12245589/CTF-writeups/raw/master/2020/SharkyCTF/PWN/Give_away_0/solve.py)
 
-![screenshot2](images/screenshot2.png)
+![screenshot1](https://github.com/0d12245589/CTF-writeups/raw/master/2020/SharkyCTF/PWN/Give_away_0/images/screenshot2.png)
 
 WE GOT THE FLAG :)
 ```

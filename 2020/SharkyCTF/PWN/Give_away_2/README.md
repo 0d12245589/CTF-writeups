@@ -21,13 +21,13 @@
 we run the binary and it gives us a give away :
 (this time we have a 64bit one)
 
-![screenshot1](https://raw.github.com/0d12245589/CTF-writeups/tree/master/2020/SharkyCTF/PWN/Give_away_2/images/screenshot1.png)
+![screenshot1](https://github.com/0d12245589/CTF-writeups/raw/master/2020/SharkyCTF/PWN/Give_away_2/images/screenshot1.png)
 
 lets find out what is this give away ?
 
 we disassemble using binary ninja :
 
-![screenshot2](https://raw.github.com/0d12245589/CTF-writeups/tree/master/2020/SharkyCTF/PWN/Give_away_2/images/screenshot2.png)
+![screenshot2](https://github.com/0d12245589/CTF-writeups/raw/master/2020/SharkyCTF/PWN/Give_away_2/images/screenshot2.png)
 
 we see that the give away is the address of the main function hmmm, what can we use it for ?
 
