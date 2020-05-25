@@ -5,7 +5,7 @@
 
 ## Challenge
 
-> I was just listening to some relaxing ASMR(https://youtu.be/J2g3lvNkAfI) when a notification popped up with this.
+> I was just listening to some [relaxing ASMR](https://youtu.be/J2g3lvNkAfI) when a notification popped up with this.
 >
 > ???
 >
@@ -27,7 +27,7 @@ p = 202049603951664548551555274464815496697
 q = 285934543893985722871321330457714807993
 ```
 
-and from there it's easy to decrypt the ciphertext, I used a python (script)[solve.py] to do that
+and from there it's easy to decrypt the ciphertext, I used a python [script](solve.py) to do that
 
 ```
 tjctf{BOLm1QMWi3c}
