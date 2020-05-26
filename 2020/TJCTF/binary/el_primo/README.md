@@ -16,13 +16,13 @@
 
 ok this time we have a pie protected 32-bit binary :
 
-![screenshot](images/screenshot1.png)
+![screenshot](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/binary/el_primo/images/screenshot1.png)
 
 hmmm lets run and reverse the binary to see what we can do :
 
-![screenshot](images/screenshot2.png)
+![screenshot](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/binary/el_primo/images/screenshot2.png)
 
-![screenshot](images/screenshot3.png)
+![screenshot](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/binary/el_primo/images/screenshot3.png)
 
 cool, it seems that this hint is the address of the input in the stack, but wait we can't just overflow and inject a shellcode because of the last couple instructions :
 
@@ -39,7 +39,7 @@ nop sleds
 shellcode
 ```
 
-here's my [script](solve.py)
+here's my [script](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/binary/el_primo/solve.py)
 
 ```
 tjctf{3L_PR1M0O0OOO!1!!}

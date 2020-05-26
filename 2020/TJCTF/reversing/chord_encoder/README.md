@@ -59,7 +59,7 @@ g 000
 
 so as we can see we can't immediately recover the song because D,E and d,e are very similar
 
-so I used my competitive programming skillz to write a backtrack algorithim to recover the flag : [solve.py](solve.py)
+so I used my competitive programming skillz to write a backtrack algorithim to recover the flag : [solve.py](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/reversing/chord_encoder/solve.py)
 
 ```
 flag{zats_wot_1_call_a_meloD}

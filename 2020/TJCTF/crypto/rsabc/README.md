@@ -27,7 +27,7 @@ p = 202049603951664548551555274464815496697
 q = 285934543893985722871321330457714807993
 ```
 
-and from there it's easy to decrypt the ciphertext, I used a python [script](solve.py) to do that
+and from there it's easy to decrypt the ciphertext, I used a python [script](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/crypto/rsabc/solve.py) to do that
 
 ```
 tjctf{BOLm1QMWi3c}

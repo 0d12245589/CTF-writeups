@@ -15,13 +15,13 @@
 
 when we run the binary we see its a gym simulation:
 
-![screenshot](images/screenshot1.png)
+![screenshot](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/reversing/gym/images/screenshot1.png)
 
 so we see that we have to reach a 180 from 211 thats 31 lbs down
 
 lets disassemble the main function to see what does what :
 
-![screenshot](images/screenshot2.png)
+![screenshot](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/reversing/gym/images/screenshot2.png)
 
 it seems like each activity has a certain effect on weight :
 

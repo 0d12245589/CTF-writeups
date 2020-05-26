@@ -15,8 +15,8 @@
 
 first thing we do is disassemble the binary, we have to interesting functions :
 
-![screenshot1](images/screenshot1.png)
-![screenshot2](images/screenshot2.png)
+![screenshot1](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/binary/seashells/images/screenshot1.png)
+![screenshot2](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/binary/seashells/images/screenshot2.png)
 
 we can see that the main function is using gets for input (which is a dumb move :P)
 
@@ -30,7 +30,7 @@ pop rdi
 shell
 ```
 
-which is a very simple chain, I wrote a script to help automate the process : [solve.py](solve.py)
+which is a very simple chain, I wrote a script to help automate the process : [solve.py](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/binary/seashells/solve.py)
 
 tada :
 ```

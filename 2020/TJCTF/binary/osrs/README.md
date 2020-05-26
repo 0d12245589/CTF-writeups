@@ -18,17 +18,17 @@
 
 if we check the security of the binary we see its not secured at all XD :
 
-![screenshot](images/screenshot4.png)
+![screenshot](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/binary/osrs/images/screenshot4.png)
 
 so lets run the binary and see what it does :
 
-![screenshot](images/screenshot3.png)
+![screenshot](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/binary/osrs/images/screenshot3.png)
 
 hmmm it gives as a negative number am guessing its an address for something lets see :
 
-![screenshot](images/screenshot1.png)
+![screenshot](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/binary/osrs/images/screenshot1.png)
 
-![screenshot](images/screenshot2.png)
+![screenshot](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/binary/osrs/images/screenshot2.png)
 
 wow we see its also using gets XD, hmmm i guess this address is somewhere in the stack cool, we can use that for a shellcode injection
 
@@ -53,7 +53,7 @@ shellcode
 
 so when it returns to that address it will land somewhere on the nop sleds that leads to the shellcode
 
-the script here : [solve.py](solve.py)
+the script here : [solve.py](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/binary/osrs/solve.py)
 
 ```
 tjctf{tr33_c0de_in_my_she115}

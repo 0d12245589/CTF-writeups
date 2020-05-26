@@ -14,27 +14,27 @@
 
 they only gave us a netcat to connect to so lets see what does it actually do ?
 
-![screenshot1](images/screenshot1.png)
+![screenshot1](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/misc/timed/images/screenshot1.png)
 
 it seems it runs python commands and returns their runtime, maybe we can use it to pop a shell lets try :
 
-![screenshot2](images/screenshot2.png)
+![screenshot2](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/misc/timed/images/screenshot2.png)
 
 WTH ? no hacking ! ok fine lets see what does this filter do, lets try opening the flag.txt file and read it :
 
-![screenshot2](images/screenshot3.png)
+![screenshot2](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/misc/timed/images/screenshot3.png)
 
 hmmm, what ?? they filtered the brackets : `()`, but not the read command XD, lets use that to our advantage
 
 I was inspired by the title of the challenge and thought of a timing attack, so we can run a big for loop if a certain condition is True
 
-![screenshot2](images/screenshot4.png)
+![screenshot2](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/misc/timed/images/screenshot4.png)
 
 see the timings are different so we can do something like this :
 
-![screenshot2](images/screenshot5.png)
+![screenshot2](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/misc/timed/images/screenshot5.png)
 
-thats how we gonna extract the flag by trying every character for each position I wrote this [script](solve.py) to do exactly that
+thats how we gonna extract the flag by trying every character for each position I wrote this [script](https://github.com/0d12245589/CTF-writeups/raw/master/2020/TJCTF/misc/timed/solve.py) to do exactly that
 
 ```
 tjctf{iTs_T1m3_f0r_a_flaggg}
