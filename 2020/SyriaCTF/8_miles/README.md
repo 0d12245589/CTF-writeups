@@ -12,3 +12,5 @@ so we just shift it by -8 and get the flag :
 ```
 R3V3R53_Th3_W0rld_N0W
 ```
+
+solved by b4n4n4s

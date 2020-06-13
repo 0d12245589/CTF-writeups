@@ -26,3 +26,5 @@ then after running the apk on an emulator it spits out the flag
 ![scree](screenshot2.png)
 
 no actually I don't :)
+
+solved by b4n4n4s
